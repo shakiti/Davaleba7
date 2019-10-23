@@ -1,0 +1,32 @@
+html, body{
+	width: 100%;
+	height: 100%;
+}
+body{
+	padding: 0 2.5% 2.5% 2.5%;
+}
+.top-text{
+	text-align: center;
+	font-size: 18px;
+}
+.green-box{
+	width: 100%;
+	height: 100%;
+	background-color: #22b573;
+	border: 4px solid #006837;
+}
+a{
+	display: inline-block;
+	color: white;
+	font-size: 48px;
+}
+.navbar-li{
+	display: inline-block;
+	margin-right: 18px;
+	margin-top: 40px;
+	margin-left: 40px;
+}
+.arrow{
+	width: 876.018px;
+	float: right;
+}
