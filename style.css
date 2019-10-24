@@ -52,6 +52,10 @@ a{
     left: 100px;
 }
 .text{
-	font-size: 40px;
-	color: #FFFF00;
+	font-size: 34px;
+    color: #FFFF00;
+    position: absolute;
+    top: 233px;
+    transform: rotate(45deg);
+    right: 244px;
 }
