@@ -52,10 +52,22 @@ a{
     left: 100px;
 }
 .text{
-	font-size: 34px;
+  	font-size: 40px;
     color: #FFFF00;
     position: absolute;
-    top: 233px;
+    top: 85px;
     transform: rotate(45deg);
-    right: 244px;
+    white-space: nowrap;
+    right: -70px;
+    transition: 0.4s;
+}
+.box2:hover{
+	background: yellow;
+}
+.box2:hover .text{
+	color: red;
+	transition: 0.4s;
+	transform: rotate(0deg);
+	right: -120px;
+	top: 130px;
 }
